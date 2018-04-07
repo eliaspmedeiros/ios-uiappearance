@@ -13,6 +13,7 @@
 		9629B1322078F39F009C243D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9629B1312078F39F009C243D /* Assets.xcassets */; };
 		9629B1352078F39F009C243D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9629B1332078F39F009C243D /* LaunchScreen.storyboard */; };
 		9629B13D2078F60E009C243D /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9629B13C2078F60E009C243D /* DataSource.swift */; };
+		9629B13F2079031C009C243D /* AppearanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9629B13E2079031C009C243D /* AppearanceService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9629B1342078F39F009C243D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9629B1362078F39F009C243D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9629B13C2078F60E009C243D /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		9629B13E2079031C009C243D /* AppearanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9629B1332078F39F009C243D /* LaunchScreen.storyboard */,
 				9629B1362078F39F009C243D /* Info.plist */,
 				9629B13C2078F60E009C243D /* DataSource.swift */,
+				9629B13E2079031C009C243D /* AppearanceService.swift */,
 			);
 			path = UIAppearance;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				9629B13D2078F60E009C243D /* DataSource.swift in Sources */,
 				9629B12D2078F39E009C243D /* ViewController.swift in Sources */,
 				9629B12B2078F39E009C243D /* AppDelegate.swift in Sources */,
+				9629B13F2079031C009C243D /* AppearanceService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

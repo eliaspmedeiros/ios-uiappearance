@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         
         let search = UISearchController(searchResultsController: nil)
         search.searchResultsUpdater = self
+        search.searchBar.placeholder = "Informe aqui o texto de filtro para a listagem"
         
         self.navigationItem.searchController = search
     }
